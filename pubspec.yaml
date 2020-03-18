@@ -1,0 +1,29 @@
+name: ndla
+description: NDLA mobilapplikasjon
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+2
+  flutter_svg: ^0.15.0
+  flutter_responsive_screen: ^1.0.0
+  pigment: ^1.0.3
+  flutter_html: ^0.11.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logoWithText.svg
+    - assets/arrow_forward.svg
+    - assets/arrow_back.svg
